@@ -14,8 +14,8 @@ a {
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -25,9 +25,6 @@ a {
 
 .header-logo .logo-part {
   color: #2e2f42;
-}
-.footer-logo .logo-part {
-  color: #f4f4fd;
 }
 
 .nav-link {
@@ -86,64 +83,73 @@ a {
 .feature {
   background-color: #ffffff;
 }
-.list-item-subtitle {
+.list-item-title {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
-  color: #2e2f42;
+  line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
+  color: #2e2f42;
 }
 
-.list-item-subtitle-text {
+.list-item-title-text {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #434455;
   letter-spacing: 0.02em;
-  text-align: center;
+  color: #434455;
 }
 
 .team {
   background-color: #f4f4fd;
-  line-height: 1.11;
-  text-transform: capitalize;
 }
-.title-list-item {
+
+.team-title {
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-title-list-item {
+  background-color: #ffffff;
+}
+
+.team-list-item-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-list-item-subtitle-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.portfolio {
   background-color: #ffffff;
 }
 
 .portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.list-item-subtitle {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  font-weight: 500;
-}
-
-.list-item-subtitle-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-weight: 400;
-}
-
-.portfolio {
-  background-color: #fff;
-}
-
-.title {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -152,7 +158,15 @@ a {
   color: #2e2f42;
 }
 
-.list-item-subtitle {
+.portfolio-title-list {
+}
+
+.portfolio-title-list-item {
+}
+
+.portfolio-list-item-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -160,7 +174,9 @@ a {
   color: #2e2f42;
 }
 
-.list-item-subtitle-text {
+.portfolio-list-item-subtitle-text {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -174,9 +190,16 @@ a {
 
 .logo.footer-logo {
   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .page-footer-text {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
