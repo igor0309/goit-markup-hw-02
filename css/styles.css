@@ -83,7 +83,17 @@ a {
 .feature {
   background-color: #ffffff;
 }
-.list-item-title {
+
+.feature-title {
+}
+
+.feature-title-list {
+}
+
+.feature-title-list-item {
+}
+
+.feature-title-list-item-subtitle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -93,7 +103,7 @@ a {
   color: #2e2f42;
 }
 
-.list-item-title-text {
+.feature-title-list-item-subtitle-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -113,9 +123,10 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .team-title-list-item {
   background-color: #ffffff;
